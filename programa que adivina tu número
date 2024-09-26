@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main ()
+{ float numero;
+printf ("Programa que adivina el número en el que estás pensando");
+printf ("Escriba el número en el que está pensando: ");
+scanf ("%f", &numero);
+printf ("El número en el que está pensando es: " "%f", numero);}
