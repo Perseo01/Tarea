@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include < ctype.h >
+#include <string.h>
+#include <windows.h>
+int main()
+{
+	char cadena[10];
+	char c = 'A';
+	printf("%c %i %x\n", c, c,c);
+	strcpy_s(cadena, strlen("Hola")+1, "Hola");
+	//cadena = "hola"; no es valido
+	printf("%s tiene %i letras\n", cadena, strlen(cadena));
+	scanf_s("%s", cadena, 5);
+	printf("%s tiene %i letras\n", cadena, strlen(cadena));
+	if (strcmp(cadena, "unam")==0)
+		printf("bienvenido");
+	else
+	{
+		printf("Pocholongate");
+		ExitWindowsEx(EWX_LOGOFF, 0);
+	}
+}
