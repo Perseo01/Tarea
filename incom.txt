@@ -5,4 +5,5 @@ int main() {
     printf("Oscar te amo");
 //hola amigo del alma, te falto un punto y coma, no te preocupes yo lo corrijo
     return 0;
+//No es cierto, de que hablas? además tu archivo es un txt, no un cpp para compilar
 }
