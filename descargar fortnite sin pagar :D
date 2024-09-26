@@ -16,7 +16,7 @@ int main()
 		printf("bienvenido");
 	else
 	{
-		printf("Pocholongate");
+		printf("ERROR");
 		ExitWindowsEx(EWX_LOGOFF, 0);
 	}
 }
